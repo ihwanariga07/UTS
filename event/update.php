@@ -4,13 +4,13 @@ include("../koneksi.php");
 
 #2. mengambil value dari form
 $id = $_POST['id'];
-$kd = $_POST['nama_event'];
-$jrs = $_POST['lokasi'];
-$jrs = $_POST['tanggal_event'];
-$jrs = $_POST['jumlah_peserta'];
+$nm = $_POST['nama_event'];
+$lk = $_POST['lokasi'];
+$tgl = $_POST['tanggal_event'];
+$jml = $_POST['jumlah_peserta'];
 
 #3. menulis query
-$edit = "UPDATE tbl_event SET kode='$kd', jurusan='$jrs' WHERE id='$id'";
+$edit = "UPDATE tbl_event SET nama_event='$nm', lokasi='$lk',tanggal_event='$tgl',jumlah_peserta='$jml' WHERE id='$id'";
 
 #.cancel
 
