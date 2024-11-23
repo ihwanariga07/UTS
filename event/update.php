@@ -6,11 +6,11 @@ include("../koneksi.php");
 $id = $_POST['id'];
 $nm = $_POST['nama_event'];
 $lk = $_POST['lokasi'];
-$tgl = $_POST['tanggal_event'];
+$tgl = $_POST['tanggal'];
 $jml = $_POST['jumlah_peserta'];
 
 #3. menulis query
-$edit = "UPDATE tbl_event SET nama_event='$nm', lokasi='$lk',tanggal_event='$tgl',jumlah_peserta='$jml' WHERE id='$id'";
+$edit = "UPDATE tbl_event SET nama_event='$nm', lokasi='$lk',tanggal='$tgl',jumlah_peserta='$jml' WHERE id='$id'";
 
 #.cancel
 
