@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Jurusan</title>
+    <title>Data Event</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/all.css">
 </head>
@@ -17,7 +17,7 @@
         <div class="col-8 m-auto">
             <div class="card">
             <div class="card-header">
-                <h3 class="float-start">Data Jurusan</h3>
+                <h3 class="float-start">Event Manager</h3>
                 <span class="float-end"><a class="btn btn-primary" href="form.php"><i class="fa-solid fa-square-plus"></i> Tambah Data</a></span>
             </div>
             <div class="card-body">
