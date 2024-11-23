@@ -31,7 +31,7 @@
                     <input type="text" name="lokasi" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Tanggal</label>
+                    <label for="exampleInputPassword1" class="form-label">Tanggal Event</label>
                     <input type="date" name="tanggal" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">

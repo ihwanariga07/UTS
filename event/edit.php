@@ -3,7 +3,7 @@
 include("../koneksi.php");
 
 #2. ambil id yang akan disunting
-$id = $_GET['id'];
+$id = $_POST['id'];
 
 #3. mengambil semua record data berdasarkan id yang dipilih
 $ambil = "SELECT * FROM tbl_event WHERE id='$id'";
@@ -50,7 +50,7 @@ $data = mysqli_fetch_array($edit)
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Tanggal Event</label>
-                    <input type="date" value="<?=$data['tanggal_event']?>" name="tanggal_event" class="form-control" id="exampleInputPassword1">
+                    <input type="date" value="<?=$data['tanggal']?>" name="tanggal_event" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Jumlah Peserta</label>
