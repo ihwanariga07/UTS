@@ -47,8 +47,10 @@
                     ?>
                     <tr>
                         <th scope="row"><?=$nomor++?></th>
-                        <td><?=$data['kode']?></td>
-                        <td><?=$data['jurusan']?></td>
+                        <td><?=$data['nama_event']?></td>
+                        <td><?=$data['lokasi']?></td>
+                        <td><?=$data['tanggal']?></td>
+                        <td><?=$data['jumlah_peserta']?></td>
                         <td>
                             <a class="btn btn-info btn-sm" href="edit.php?id=<?=$data['id']?>"><i class="fa fa-pen-to-square"></i></a>
                             
@@ -65,7 +67,7 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    Yakin data <b><?=$data['jurusan']?></b> ingin dihapus?
+                                    Yakin data <b><?=$data['event']?></b> ingin dihapus?
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
