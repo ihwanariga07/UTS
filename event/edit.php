@@ -6,7 +6,7 @@ include("../koneksi.php");
 $id = $_GET['id'];
 
 #3. mengambil semua record data berdasarkan id yang dipilih
-$ambil = "SELECT * FROM jurusans WHERE id='$id'";
+$ambil = "SELECT * FROM tbl_event WHERE id='$id'";
 
 #4. menjalankan query
 $edit = mysqli_query($koneksi,$ambil);
@@ -50,7 +50,7 @@ $data = mysqli_fetch_array($edit)
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Tanggal Event</label>
-                    <input type="text" value="<?=$data['tanggal_event']?>" name="tanggal_event" class="form-control" id="exampleInputPassword1">
+                    <input type="date" value="<?=$data['tanggal_event']?>" name="tanggal_event" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Jumlah Peserta</label>
