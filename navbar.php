@@ -14,7 +14,7 @@
           <a class="nav-link active" aria-current="page" href="#">Data Peserta</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/UTS_IHWAN/modul-jurusan/index.php">Event Manager</a>
+          <a class="nav-link active" aria-current="page" href="/UTS_IHWAN/event/index.php">Event Manager</a>
         </li>
         
       </ul>
