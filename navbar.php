@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/PROJECT/index.php">Beranda</a>
+          <a class="nav-link active" aria-current="page" href="/UTS_IHWAN/index.php">Beranda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Data Mahasiswa</a>

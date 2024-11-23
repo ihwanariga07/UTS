@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeck</title>
+    <title>UTS IHWAN EVENET MANAGER</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 
 
@@ -21,11 +21,11 @@
         <div class="col-6 m-auto">
             <div class="card">
             <div class="card-header text-center">
-                <h3>Sistem Informasi Mahasiswa</h3>
+                <h3>EVENT MANAGER</h3>
             </div>
             <div class="card-body">
-                <h4>Selamat Datang, Administrator</h4>
-                <p>Tuliskan kata-kata hari ini</p>
+                <h4>Selamat Datang,</h4>
+                <p>Di EVENT MANAGER 2024</p>
             </div>
             </div>
         </div>
