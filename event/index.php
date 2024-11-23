@@ -72,11 +72,11 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    Yakin data <b><?=$data['event']?></b> ingin dihapus?
+                                    Yakin data <b><?=$data['nama_event']?></b> ingin dihapus?
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-                                    <a href="hapus.php?xyz=<?=$data['id']?>" class="btn btn-danger">Hapus</a>
+                                    <a href="hapus.php?xyz=<?=$data['nama_event']?>" class="btn btn-danger">Hapus</a>
                                 </div>
                                 </div>
                             </div>
