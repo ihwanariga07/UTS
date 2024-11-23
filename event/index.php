@@ -29,6 +29,7 @@
                         <th scope="col">lokasi</th>
                         <th scope="col">tanggal</th>
                         <th scope="col">jumlah_peserta</th>
+                        <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -52,6 +53,7 @@
                         <td><?=$data['lokasi']?></td>
                         <td><?=$data['tanggal']?></td>
                         <td><?=$data['jumlah_peserta']?></td>
+                        
                         <td>
                             <a class="btn btn-info btn-sm" href="edit.php?id=<?=$data['id']?>"><i class="fa fa-pen-to-square"></i></a>
                             
