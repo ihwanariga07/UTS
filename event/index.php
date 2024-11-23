@@ -57,14 +57,14 @@
 
 
 
-                            <a class="btn btn-info btn-sm" href="edit.php?id=<?=$data['id']?>"><i class="fa fa-pen-to-square"></i></a>
+                            <a class="btn btn-info btn-sm" href="edit.php?nama_event=<?=$data['nama_event']?>"><i class="fa fa-pen-to-square"></i></a>
                             
-                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#hapus<?=$data['id']?>">
+                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#hapus<?=$data['nama_event']?>">
                             <i class="fa-solid fa-trash"></i>
                             </button>
 
                             <!-- Modal -->
-                            <div class="modal fade" id="hapus<?=$data['id']?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal fade" id="hapus<?=$data['nama_event']?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                 <div class="modal-header">
