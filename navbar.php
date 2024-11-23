@@ -11,13 +11,10 @@
           <a class="nav-link active" aria-current="page" href="/UTS_IHWAN/index.php">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Data Mahasiswa</a>
+          <a class="nav-link active" aria-current="page" href="#">Data Peserta</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/PROJECT/modul-jurusan/index.php">Data Jurusan</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Data Dosen</a>
+          <a class="nav-link active" aria-current="page" href="/UTS_IHWAN/modul-jurusan/index.php">Event Manager</a>
         </li>
         
       </ul>
