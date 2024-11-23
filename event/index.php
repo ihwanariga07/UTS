@@ -25,9 +25,10 @@
                 <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Kode</th>
-                        <th scope="col">Nama Jurusan</th>
-                        <th scope="col">Action</th>
+                        <th scope="col">nama_event</th>
+                        <th scope="col">lokasi</th>
+                        <th scope="col">tanggal</th>
+                        <th scope="col">jumlah_peserta</th>
                     </tr>
                 </thead>
                 <tbody>
