@@ -36,7 +36,7 @@
                     include("../koneksi.php");
 
                     #2. menulis query
-                    $tampil = "SELECT * FROM jurusans";
+                    $tampil = "SELECT * FROM tbl_event";
 
                     #3. jalankan query
                     $proses = mysqli_query($koneksi, $tampil);
